@@ -130,6 +130,7 @@ main{
 }
 
 .content-block-two p{
+    text-indent: 10px;
     color: black;
     margin: 15px 10px;
 }
