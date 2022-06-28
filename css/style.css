@@ -117,9 +117,10 @@ main{
 .content-block-two{
     box-sizing: border-box;
     border: 1px solid transparent;
-    height: 120px;
+    overflow: auto;
     background-color: white;
     margin-top: 25px;
+    padding-bottom: 2%;
 }
 
 .content-block-two h2{
@@ -194,12 +195,4 @@ p::selection{
         margin-right: 0;
     }
 
-    .content-block-two{
-        box-sizing: border-box;
-        border: 1px solid transparent;
-        height: 150px;
-        background-color: white;
-        margin-top: 25px;
-        padding-bottom: 8%;
-    }
 }
